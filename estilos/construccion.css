@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url(../imagenes/construccion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+nav{
+    height: 50px;
+    background-color: black;
+    z-index: 1;
+}
+
+nav .logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    color: rgb(5, 205, 255);
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    padding: 0 15px;
+    display: block;
+    line-height:50px;
+    font-size: 18px;
+    background:black
+}
+
+nav ul li a:hover,
+nav ul li a.activar{
+    color: rgb(5, 205, 255) ;
+}
+
+nav ul li:hover>ul{
+    top:50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+
+
+
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    border-top:3px rgb(5, 205, 255) solid ;
+    opacity: 0 ;
+    visibility: hidden;
+}
+
+nav ul ul li{
+    width: 150px;
+    display:list-item;
+    position: relative;
+    border:1px rgb(5, 205, 255) solid;
+    border-top:none;
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
