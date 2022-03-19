@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../imagenes/animales.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,60 +14,53 @@ body{
 }
 
 .titulo{
-    background-color: black;
-    padding: 10px;
-    width:350px;
-    color: rgb(5, 205, 255);
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family: helvetica;
+    color: #1a2537;
     font-size: 40px;
-    margin: 20px auto;
-    border-radius: 20px;
-    
         
 }
 
 .parrafo{
-    color:white;
+    color:black;
     font-family: helvetica;
     font-size: 20px;
     width: 700px;
     margin: 70px 20px;
-    background-color: black;
+    background-color: rgb(238, 234, 226);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
 .mapa{
     position: absolute;
     left: 800px;
     top:170px;
-    background-color: black;
+    background-color: #1a2537;
     padding:10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .imagen1{
     margin:20px 20px;
     position: relative;
     top: 30px;
-    width: 365px;
+    width: 345px;
     border-radius: 20px;
-    background-color: black;
     padding:20px;
    
 }
 
 nav{
     height: 50px;
-    background-color: black;
+    background-color: #1a2537;
     z-index: 1;
 }
 
 nav .logo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:30px;
-    color: rgb(5, 205, 255);
+    color: white;
     line-height: 50px;
     padding-left: 20px;
 }
@@ -87,12 +80,12 @@ nav ul li a{
     display: block;
     line-height:50px;
     font-size: 18px;
-    background:black
+    background:#1a2537
 }
 
 nav ul li a:hover,
 nav ul li a.activar{
-    color: rgb(5, 205, 255) ;
+    color: red ;
 }
 
 nav ul li:hover>ul{
@@ -107,7 +100,7 @@ nav ul li:hover>ul{
 nav ul ul{
     position: absolute;
     top: 50px;
-    border-top:3px rgb(5, 205, 255) solid ;
+    border-top:3px white solid ;
     opacity: 0 ;
     visibility: hidden;
 }
@@ -116,7 +109,7 @@ nav ul ul li{
     width: 150px;
     display:list-item;
     position: relative;
-    border:1px rgb(5, 205, 255) solid;
+    border:1px white solid;
     border-top:none;
 }
 
@@ -127,111 +120,17 @@ nav ul ul li a{
 
 
 
-.form-register{
-    box-sizing: border-box;
-    width: 400px;
-    height: 590px;
-    background-color: #4e4d4d;
-    margin:auto;
-    margin-top: 30px;
-    box-shadow: 7px 13px 20px black;
-    padding: 50px 50px;
-    border-top: 4px solid #017bab;
-    color:white;
-    border-radius: 20px;
-}
-
-.form-register h5{
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom:1px solid ;
-    font-size: 20px;
-    font-family: arial;
-}
-.controls{
-    text-align: center;
-    color: white;
-    width: 100%;
-    border:1px solid #017bab;
-    margin-bottom: 5px;
-    padding: 11px 1px;
-    background-color: #252323;
-    font-weight: bold;
-}
-
-.button{
-    width: 100%;
-    height: 40px;
-    background: #017bab;
-    border: none;
-    color: white;
-    border-collapse: collapse;
-    margin-bottom: 5px;
-    border-bottom: 1px solid;
-}
-
-.form-register a:hover{
-    color: #000;
-    text-decoration: underline;
-}
 
 
-
-.form-login{
-    box-sizing: border-box;
-    width: 400px;
-    height: 370px;
-    background-color: #4e4d4d;
-    margin:auto;
-    margin-top: 150px;
-    box-shadow: 7px 13px 20px black;
-    padding: 50px 50px;
-    border-top: 4px solid #017bab;
-    color:white;
-    border-radius: 20px;
+section{
+    width: 50%;
+    
+    border: #18bc9c;
+    inline-size: 20px;
 }
-
-.form-login h5{
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom:1px solid ;
-    font-size: 20px;
-    font-family: arial;
-}
-.controls{
-    text-align: center;
-    color: white;
-    width: 100%;
-    border:1px solid #017bab;
-    margin-bottom: 5px;
-    padding: 11px 1px;
-    background-color: #252323;
-    font-weight: bold;
-}
-
-.button{
-    width: 100%;
-    height: 40px;
-    background: #017bab;
-    border: none;
-    color: white;
-    border-collapse: collapse;
-    margin-bottom: 5px;
-    border-bottom: 1px solid;
-}
-
-.form-register a:hover{
-    color: #000;
-    text-decoration: underline;
-}
-
 
 div.galeria{
-    margin: 10px 20px;
+    margin:50px 130px;
     box-shadow: 0px 4px 8px 0 black;
     float: left;
     width: 400px;
@@ -245,7 +144,7 @@ div.galeria img{
 }
 
 div.galeria :hover{ 
-    border:1px solid #017bab;
+    border:1px solid black;
     transform: rotate(-3deg);
 }
 
@@ -253,33 +152,44 @@ div.pie{
     font-family: arial;
     font-size: 50px;
     text-align: center;
-    text-shadow: 2px 2px 5px #017bab;
+    text-shadow: 2px 2px 5px #18bc9c;
     padding:10px;
 }
-
-h1{
-    margin: 30px auto;
-    width: 700px;
-    color: white;
-    text-align: center;
-    background-color:rgb(49, 45, 45);
-    padding: 20px;
-    border-radius: 30px;
-    box-shadow: 20px 40px 40px black;
-}
-.curioso{
-    border-radius: 40px;
-    font-family: arial;
-    font-size: 25px;
-    color: rgb(199, 199, 195);
-    margin:80px auto;
-    width:1300px;
-    background: rgb(49, 45, 45);
-    padding: 20px;
-    box-shadow: 30px 30px 30px black;
-}
-
-
 .construccion{
     background-image: url(imagenes/construccion.jpg);
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin:auto;
+    border-radius: 5px;
+    background-color: rgb(139, 139, 139);
+    width:100%;
+    bottom: 0;
+}
+
+.card{
+    background-color: #1a2537;
+    margin: 5% 5%;
+    display: flex; 
+    float: left;   
+}
+
+.dtad{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.peticion{
+    border-radius: 20px;
+    color:#1a2537;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    width: 50%;
+    margin: 10% auto;
+    padding: 30px;
+
 }
