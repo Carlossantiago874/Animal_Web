@@ -1,0 +1,22 @@
+{
+    "name":"animalweb/tienda-online",
+    "description":"creacion de una tienda online",
+    "type":"project",
+    "license":"Mit",
+    "authors": [
+        {
+            "name":"carlos santiago coronado rubio",
+            "email":"coronadoc744@gmail.com"
+        }
+    ],
+    "require": {
+
+
+    },
+    "autoload": {
+        "psr-4": {
+            "animalweb\\":"src/"
+        }
+    }
+
+}
