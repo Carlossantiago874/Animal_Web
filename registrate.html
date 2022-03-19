@@ -4,27 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos2.css">
     <title>Registrate</title>
 </head>
 <body>
-    
-    <section class="form-register">
-        <h5>Registrate</h5>
+    <a href="index.html"><input type="submit" value="Inicio" class="button"></a>
+	<section id="categorias">
+		<section id="Registrate">
+			
+	<div id="form">								
+    <form class="form-register" name="cotacto" method="POST" action="guardar.php">
+    <h1>Registrate</h1>
+     <div class="contenedor">
+     
+     <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+         <input type="text" name="nombres" placeholder="Nombres" required>
+         
+         </div>
+		 <div class="input-contenedor">
+			<i class="fas fa-user icon"></i>
+			<input type="text" name="apellidos" placeholder="Apellidos" required>
+			
+			</div>
+			<div class="input-contenedor">
+				<i class="fas fa-user icon"></i>
+				<input type="text" name="telefono" placeholder="Teléfono" required>
+				
+				</div>
+         
+         <div class="input-contenedor">
+         <i class="fas fa-envelope icon"></i>
+         <input type="text" name="email" placeholder="Correo electrónico" required>
+         
+         </div>
+         
+         <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+         <input type="password" name="password" placeholder="Contraseña" required>
+         
+         </div>
+         <input type="submit" value="Registrate" class="button">
+         
+         <p>¿Ya tienes una cuenta?<a class="link" href="ingresa.php">Iniciar Sesion</a></p>
+     </div>
 
-        <input class="controls" type="text" placeholder="Primer Nombre" maxlength="50"> 
-        <input class="controls" type="text" placeholder="Segundo Nombre" maxlength="50">
-        <input class="controls" type="text" placeholder="Primer Apellido" maxlength="50"> 
-        <input class="controls" type="text" placeholder="Segundo Apellido" maxlength="50">
-        <input class="controls" type="tel" placeholder="telefono" maxlength="50"> 
-        <input class="controls" type="email" placeholder="Email" maxlength="50">
-        <input class="controls" type="password" placeholder="password" maxlength="50"> 
-    
-
-        <a href="index.html"><input class="button" type="submit" value="Registrate"></a> 
-
-        <a href="index.html"><input class="button" type="button" value="INICIO"></a>
-    
-    </section>
 </body>
 </html>
+
+
+
+
+
